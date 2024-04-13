@@ -5,13 +5,16 @@ import { useState, useEffect } from "react";
 function App() {
   const [tasks, setTasks] = useState([]);
   useEffect(() => {
-    if (tasks.length === 0) return;
+    if (tasks.length === 0) {
+      return;
+    }
     localStorage.setItem("tasks", JSON.stringify(tasks));
   }, [tasks]);
 
   useEffect(() => {
-    const task = JSON.parse(localStorage.getItem("tasks"));
-    setTasks(task);
+    const storedTasks = localStorage.getItem("tasks");
+    const initialTasks = storedTasks ? JSON.parse(storedTasks) : [];
+    setTasks(initialTasks);
   }, []);
   function addTask(name) {
     setTasks((prev) => {
