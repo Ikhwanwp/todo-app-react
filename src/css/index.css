@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background-color: #0f172a;
+}
+.task svg {
+  height: 30px;
+  width: 30px;
+  fill: #38bdf8;
+}
+.trash svg {
+  height: 20px;
+  width: 20px;
+}
