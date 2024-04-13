@@ -18,7 +18,7 @@ export default function TaskForm({ onAdd }) {
           type="text"
           value={taskName}
           onChange={(e) => setTaskName(e.target.value)}
-          placeholder="Masukkan Task baru..."
+          placeholder="Masukkan Tugas baru..."
           className="bg-transparent border-none p-2 text-white outline-none "
         />
       </form>
