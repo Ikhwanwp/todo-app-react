@@ -1,8 +1,12 @@
-# React + Vite
+# Demo 
+🔗https://todo-app-react-lyart-one.vercel.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Screenshots
+![todo-app](https://github.com/Ikhwanwp/todo-app-react/assets/38366920/a0e23c39-78c5-497c-b696-930a4cfe5197)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+
+**Client:** React and TailwindCSS
+
+**Frontend Tooling:** Vite
